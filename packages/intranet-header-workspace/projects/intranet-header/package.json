@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/swisspost/design-system/issues"
   },
+  "type": "module",
   "publishConfig": {
     "directory": "../../dist/intranet-header",
     "access": "public",
