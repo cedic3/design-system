@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/web-components';
 import { html } from 'lit';
 import { ifDefined } from 'lit/directives/if-defined.js';
-import { BADGE } from '../../../../.storybook/constants';
+import { BADGE, TYPE_TAGS } from '../../../../.storybook/constants';
 
 const meta: Meta<HTMLPostAccordionElement & HTMLPostCollapsibleElementEventMap> = {
   id: '4d1b4185-e04d-494a-ab38-2b56c1778b0b',
@@ -9,6 +9,7 @@ const meta: Meta<HTMLPostAccordionElement & HTMLPostCollapsibleElementEventMap> 
   component: 'post-accordion',
   parameters: {
     badges: [BADGE.BETA, BADGE.NEEDS_REVISION, BADGE.SINCE_V1],
+    tags: [TYPE_TAGS.WC]
   },
   args: {
     multiple: false,

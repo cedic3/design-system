@@ -1,3 +1,4 @@
+@use '@swisspost/design-system-styles/core' as post;
 @use '@swisspost/design-system-styles/components/root';
 @use '@swisspost/design-system-styles/components/fonts';
 
@@ -69,6 +70,31 @@
     &[data-selected='true'] {
       background-color: rgba(var(--post-yellow-rgb), 0.4);
       color: var(--post-contrast-color);
+    }
+
+    .label {
+      display: flex;
+      justify-content: space-between;
+      flex: 0 1 100%;
+
+      > span {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: start;
+      }
+    }
+
+    .type {
+      display: block;
+      margin-left: 10px;
+      padding: 1px 2px;
+      border: post.$border-width solid post.$gray-60;
+      border-radius: post.$border-radius;
+      font-size: 10px;
+
+      + .type {
+        margin-left: 2px;
+      }
     }
   }
 }
