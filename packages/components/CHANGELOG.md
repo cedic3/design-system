@@ -1,5 +1,13 @@
 # @swisspost/design-system-components
 
+## 2.1.1
+
+### Patch Changes
+
+- Fixed accessibility of aria controls through post-tabs components. (by [@imagoiq](https://github.com/imagoiq) with [#2777](https://github.com/swisspost/design-system/pull/2777))
+- Updated dependencies:
+  - @swisspost/design-system-styles@7.0.0
+
 ## 2.1.0
 
 ### Minor Changes

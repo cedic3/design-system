@@ -1,5 +1,25 @@
 # @swisspost/design-system-styles
 
+## 7.0.0
+
+### Major Changes
+
+- Added support for Angular 17 and ng-bootstrap 16. (by [@alizedebray](https://github.com/alizedebray) with [#2760](https://github.com/swisspost/design-system/pull/2760))
+
+### Patch Changes
+
+- Adjusted focus styles with new color for button, checkbox, radio, switch, rating elements. (by [@imagoiq](https://github.com/imagoiq) with [#2780](https://github.com/swisspost/design-system/pull/2780))
+
+- Updated size of radio button to match design. (by [@imagoiq](https://github.com/imagoiq) with [#2737](https://github.com/swisspost/design-system/pull/2737))
+
+- Fixed layout on post-alert with medium (md) breakpoint. (by [@imagoiq](https://github.com/imagoiq) with [#2775](https://github.com/swisspost/design-system/pull/2775))
+
+- Replaced `system-ui` fallback font with a list of fallbacks to avoid rendering issues with specific writing system (chinese, arabic…). (by [@imagoiq](https://github.com/imagoiq) with [#2735](https://github.com/swisspost/design-system/pull/2735))
+
+- Replace all parts that used the old success color with the new success-green color. (by [@imagoiq](https://github.com/imagoiq) with [#2808](https://github.com/swisspost/design-system/pull/2808))
+
+- Fixed form validation feedback color and indicators in high contrast mode. (by [@imagoiq](https://github.com/imagoiq) with [#2766](https://github.com/swisspost/design-system/pull/2766))
+
 ## 6.6.4
 
 ### Patch Changes
